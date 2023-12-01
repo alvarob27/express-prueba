@@ -53,7 +53,7 @@ app.get('/', async function(req, res){
   const droppedResult = await dropTable(connection);
 
   // Make the output.
-  const outputString = `Hello, World! - A simple Express web framework template for Platform.sh
+  const outputString = `Hello, World! - A simple Express web framework template for 
 
 MariaDB Tests:
 
